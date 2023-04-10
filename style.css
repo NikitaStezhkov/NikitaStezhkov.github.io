@@ -1,0 +1,17 @@
+a.button {
+  display: inline-block;
+  background: #fadadd;
+  color: 	#00ff00;
+  padding: 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+div {
+  margin: 24px;
+  text-align: center;
+}
