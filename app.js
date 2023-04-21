@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 
-tg.expand()
+tg.expand();
 
 tg.MainButton.textColor ="#FFFFFF";
 tg.MainButton.color="#2cab37";
@@ -87,9 +87,9 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 
 let usercard = document.getElementById("usercard");
 
-let p = document.createElement("p);
+let p = document.createElement("p");
 
-p.inerText = `${tg.initDataUnsafe.first_name}
-	${tg.initDataUnsafe.last_name}`
+p.inerText = `${tg.initDataUnsafe.user.first_name}
+	${tg.initDataUnsafe.user.last_name}`;
 	
 usercard.appendChild(p);
