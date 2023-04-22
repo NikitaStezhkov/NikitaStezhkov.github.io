@@ -91,9 +91,10 @@ btn6.addEventListener("click", function(){
     }
 });
 
-Telegram.WebApp.onEvent("mainButtonClicked", function(){
-    tg.sendData(item);
-});
+Telegram.WebApp.onEvent('mainButtonClicked', function(){
+      tg.sendData("some string that we need to send"); 
+      //при клике на основную кнопку отправляем данные в строковом виде
+   });
 
 let usercard = document.getElementById("usercard");
 
